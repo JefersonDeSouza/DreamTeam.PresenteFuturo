@@ -1,0 +1,95 @@
+﻿@model Site.Signatures.ClienteSignature
+
+@{
+    ViewBag.Title = "Salvar Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Cadastrar", "Step1", FormMethod.Post, new { @class = "contact100-form validate-form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <span class="contact100-form-title">
+            Olá!
+        </span>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="wrap-input100 validate-input" data-validate="Nome do Pai é obrigatório">
+            <span class="label-input100">Nome Do Pai</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.NomePai, "", new { @class = "text-danger", required = "required" })
+            <input class="input100" type="text" name="NomePai" placeholder="Informe o nome do Pai">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="CPF é obrigatório">
+            <span class="label-input100">CPF</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.CPF, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="CPF" placeholder="Informe o CPF">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="Evento é obrigatório">
+            <span class="label-input100">Evento</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.Evento, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="Evento" placeholder="Informe o evento">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="Matricula é obrigatório">
+            <span class="label-input100">Matricula</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.Matricula, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="Matricula" placeholder="Informe a Matricula">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="E-mail é obrigatório">
+            <span class="label-input100">E-mail</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="Email" placeholder="Informe o E-mail">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="Telefone é obrigatório">
+            <span class="label-input100">Telefone</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="Telefone" placeholder="Informe o número de Telefone">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input" data-validate="Celular é obrigatório">
+            <span class="label-input100">Celular</span>
+            <br />
+            @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger" })
+            <input class="input100" type="text" name="Celular" placeholder="Informe o número de Celular">
+            <span class="focus-input100"></span>
+        </div>
+
+        <div class="container-contact100-form-btn">
+            <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <button class="contact100-form-btn">
+                    <span>
+                        Cadastrar
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Scripts/jquery.validate.unobtrusive.min.js")
+}
