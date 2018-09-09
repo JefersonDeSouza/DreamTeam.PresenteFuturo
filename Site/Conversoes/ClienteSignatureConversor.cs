@@ -12,7 +12,13 @@ namespace Conversoes
             return new Cliente
             {
                 ClienteId = signature.ClienteId,
-                Nome = signature.Nome
+                NomePai = signature.NomePai,
+                Celular = signature.Celular,
+                CPF = signature.CPF,
+                Email = signature.Email,
+                Evento = signature.Evento,
+                Matricula = signature.Matricula,
+                Telefone = signature.Telefone
             };
         }
     }

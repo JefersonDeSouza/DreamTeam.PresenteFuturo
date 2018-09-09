@@ -3,3 +3,4 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Dominio\bin\Debug\Dominio.pdb
 C:\git\freelancers\DreamTeam.PresenteFuturo\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\git\freelancers\DreamTeam.PresenteFuturo\Dominio\obj\Debug\Dominio.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Dominio\obj\Debug\Dominio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache

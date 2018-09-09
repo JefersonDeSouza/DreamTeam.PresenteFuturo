@@ -2,6 +2,7 @@
 using Negocio.Cliente;
 using Negocio.Interface;
 using Site.Signatures;
+using Site.ViewsModels;
 using System.Web.Mvc;
 
 namespace Site.Controllers
@@ -15,37 +16,27 @@ namespace Site.Controllers
             _clienteNeg = new ClienteNeg();
         }
 
-        // GET: Step1
-        public ActionResult Index()
-        {
-            return View("Create");
-        }
-
-        // GET: Step1/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Cadastrar()
         {
             return View();
         }
 
-        // GET: Step1/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Step1/Create
         [HttpPost]
-        public ActionResult Create(ClienteSignature clienteSignature)
+        public ActionResult Cadastrar(ClienteSignature clienteSignature)
         {
+            if (!ModelState.IsValid)
+                return View(clienteSignature);
+
             try
             {
-                // TODO: Add insert logic here
                 _clienteNeg.Salvar(ClienteSignatureConversor.ToDomain(clienteSignature));
-                return RedirectToAction("Index");
+                TempData["Mensagem"] = new MensagemVM() { CssClassName = "alert-success", Titulo = "Sucesso!", Mensagem= "Operação efetuada com sucesso." };
+                return RedirectToAction("Cadastrar");
             }
             catch
             {
-                return View();
+                TempData["Mensagem"] = new MensagemVM() { CssClassName = "alert-danger", Titulo = "Erro!", Mensagem = "Operação falhou." };
+                return View("Create");
             }
         }
 
@@ -61,8 +52,6 @@ namespace Site.Controllers
         {
             try
             {
-                // TODO: Add update logic here
-
                 return RedirectToAction("Index");
             }
             catch
@@ -71,26 +60,5 @@ namespace Site.Controllers
             }
         }
 
-        // GET: Step1/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Step1/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }

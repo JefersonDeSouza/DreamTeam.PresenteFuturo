@@ -2,7 +2,13 @@
 {
     public class Cliente
     {
-        public object ClienteId { get; set; }
-        public object Nome { get; set; }
+        public long ClienteId { get; set; }
+        public string NomePai { get; set; }
+        public string CPF { get; set; }
+        public string Evento { get; set; }
+        public string Matricula { get; set; }
+        public string Email { get; set; }
+        public string Telefone { get; set; }
+        public string Celular { get; set; }
     }
 }
