@@ -1,0 +1,9 @@
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Repositorio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Repositorio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Dominio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Dominio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.pdb

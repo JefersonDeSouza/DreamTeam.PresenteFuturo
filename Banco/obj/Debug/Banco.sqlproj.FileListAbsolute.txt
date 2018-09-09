@@ -1,0 +1,9 @@
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\bin\Debug\Banco.dacpac
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\bin\Debug\Banco.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\bin\Debug\Banco.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\Model.xml
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\refactor.xml
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\postdeploy.sql
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\predeploy.sql
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\Banco.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Banco\obj\Debug\Banco.pdb

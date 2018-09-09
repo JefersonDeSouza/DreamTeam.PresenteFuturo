@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DreamTeam.PresenteFuturo;
-using DreamTeam.PresenteFuturo.Controllers;
+using Site.Controllers;
 
 namespace DreamTeam.PresenteFuturo.Tests.Controllers
 {

@@ -1,0 +1,13 @@
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Dominio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.Interfaces.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Repositorio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Dominio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.Interfaces.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Repositorio.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.pdb

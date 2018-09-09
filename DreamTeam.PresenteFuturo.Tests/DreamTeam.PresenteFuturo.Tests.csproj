@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DreamTeam.PresenteFuturo\DreamTeam.PresenteFuturo.csproj">
-      <Project>{3D18AA45-C3F9-42BA-BD98-D44D9967F004}</Project>
-      <Name>DreamTeam.PresenteFuturo</Name>
+    <ProjectReference Include="..\Site\Site.csproj">
+      <Project>{2A1B8B4E-138B-483A-9D38-56FFE4FA2E5E}</Project>
+      <Name>Site</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
