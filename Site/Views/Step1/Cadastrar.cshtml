@@ -19,8 +19,8 @@
         <div class="wrap-input100 validate-input" data-validate="Nome do Responsável é obrigatório">
             <span class="label-input100">Nome Do Responsável</span>
             <br />
-            @Html.ValidationMessageFor(model => model.NomePai, "", new { @class = "text-danger pl-5", required = "required" })
-            @Html.TextBoxFor(model => model.NomePai, new { @class = "input100", @placeholder = "Informe o nome do Pai" })
+            @Html.ValidationMessageFor(model => model.NomeResponsavel, "", new { @class = "text-danger pl-5", required = "required" })
+            @Html.TextBoxFor(model => model.NomeResponsavel, new { @class = "input100", @placeholder = "Informe o nome do Responsável" })
             <span class="focus-input100"></span>
         </div>
 
