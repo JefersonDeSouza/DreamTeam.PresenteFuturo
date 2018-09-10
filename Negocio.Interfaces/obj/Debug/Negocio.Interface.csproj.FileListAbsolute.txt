@@ -7,3 +7,12 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interface.csproj.CopyComplete
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interfaces.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interfaces.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\bin\Debug\Negocio.Interfaces.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\bin\Debug\Negocio.Interfaces.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\bin\Debug\Dominio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\bin\Debug\Dominio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interface.csprojAssemblyReference.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interface.csproj.CoreCompileInputs.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interface.csproj.CopyComplete
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interfaces.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio.Interfaces\obj\Debug\Negocio.Interfaces.pdb

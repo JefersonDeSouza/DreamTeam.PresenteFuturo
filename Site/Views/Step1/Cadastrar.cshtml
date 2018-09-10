@@ -16,11 +16,11 @@
 
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-        <div class="wrap-input100 validate-input" data-validate="Nome do Pai é obrigatório">
-            <span class="label-input100">Nome Do Pai</span>
+        <div class="wrap-input100 validate-input" data-validate="Nome do Responsável é obrigatório">
+            <span class="label-input100">Nome Do Responsável</span>
             <br />
-            @Html.ValidationMessageFor(model => model.NomePai, "", new { @class = "text-danger", required = "required" })
-            <input class="input100" type="text" name="NomePai" placeholder="Informe o nome do Pai">
+            @Html.ValidationMessageFor(model => model.NomeResponsavel, "", new { @class = "text-danger", required = "required" })
+            <input class="input100" type="text" name="NomeResponsavel" placeholder="Informe o nome do Responsável">
             <span class="focus-input100"></span>
         </div>
 
