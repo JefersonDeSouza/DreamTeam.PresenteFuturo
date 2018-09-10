@@ -11,3 +11,16 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.Cor
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Dominio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.Interfaces.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Repositorio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Dominio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Negocio.Interfaces.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\bin\Debug\Repositorio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Negocio\obj\Debug\Negocio.pdb

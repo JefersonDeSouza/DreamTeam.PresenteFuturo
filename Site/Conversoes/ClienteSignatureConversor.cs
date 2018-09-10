@@ -12,9 +12,9 @@ namespace Conversoes
             return new Cliente
             {
                 ClienteId = signature.ClienteId,
-                NomePai = signature.NomePai,
+                NomeResponsavel = signature.NomeResponsavel,
                 Celular = signature.Celular,
-                CPF = signature.CPF,
+                CPF = signature.CPF.Replace(".", string.Empty).Replace("-", string.Empty),
                 Email = signature.Email,
                 Evento = signature.Evento,
                 Matricula = signature.Matricula,

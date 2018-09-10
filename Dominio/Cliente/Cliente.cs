@@ -3,7 +3,7 @@
     public class Cliente
     {
         public long ClienteId { get; set; }
-        public string NomePai { get; set; }
+        public string NomeResponsavel { get; set; }
         public string CPF { get; set; }
         public string Evento { get; set; }
         public string Matricula { get; set; }

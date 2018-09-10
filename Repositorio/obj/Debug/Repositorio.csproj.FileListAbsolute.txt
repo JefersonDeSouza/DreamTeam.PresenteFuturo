@@ -7,3 +7,12 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.cs
 C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
 C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Dominio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\bin\Debug\Dominio.pdb
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\AnaPaula\Source\Repos\DreamTeam.PresenteFuturo\Repositorio\obj\Debug\Repositorio.pdb

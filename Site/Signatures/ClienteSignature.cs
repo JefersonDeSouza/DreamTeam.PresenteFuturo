@@ -6,10 +6,10 @@ namespace Site.Signatures
     {
         public long ClienteId { get; set; }
 
-        [Required(ErrorMessage = "O nome do pai é obrigatório", AllowEmptyStrings = false)]
+        [Required(ErrorMessage = "O nome do responsável é obrigatório", AllowEmptyStrings = false)]
         [DataType(DataType.Text)]
         [StringLength(100)]
-        public string NomePai { get; set; }
+        public string NomeResponsavel { get; set; }
 
         [Required(ErrorMessage = "O CPF é obrigatório", AllowEmptyStrings = false)]
         [DataType(DataType.Text)]
@@ -38,7 +38,7 @@ namespace Site.Signatures
 
         [Required(ErrorMessage = "O número do celuar é obrigatório", AllowEmptyStrings = false)]
         [DataType(DataType.Text)]
-        [StringLength(11)]
+        [StringLength(9)]
         public string Celular { get; set; }
     }
 }
