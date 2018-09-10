@@ -17,5 +17,10 @@ namespace Negocio.Cliente
         {
             return _clienteRep.Salvar(cliente);
         }
+
+        public void Salvar(object v)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

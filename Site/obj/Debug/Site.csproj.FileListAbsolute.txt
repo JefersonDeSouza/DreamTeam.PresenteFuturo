@@ -84,3 +84,5 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Site\obj\Debug\Site.csproj.CoreCompi
 C:\git\freelancers\DreamTeam.PresenteFuturo\Site\obj\Debug\Site.csproj.CopyComplete
 C:\git\freelancers\DreamTeam.PresenteFuturo\Site\obj\Debug\Site.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Site\obj\Debug\Site.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Site\bin\Biblioteca.dll
+C:\git\freelancers\DreamTeam.PresenteFuturo\Site\bin\Biblioteca.pdb

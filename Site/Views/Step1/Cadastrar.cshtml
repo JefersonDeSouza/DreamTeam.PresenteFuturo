@@ -1,11 +1,11 @@
 ﻿@model Site.Signatures.ClienteSignature
 
 @{
-    ViewBag.Title = "Salvar Cliente";
+    ViewBag.Title = "Passo 1";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@using (Html.BeginForm("Cadastrar", "Step1", FormMethod.Post, new { @class = "contact100-form validate-form" }))
+@using (Html.BeginForm("Cadastrar", "Step1", FormMethod.Post, new { @class = "contact100-form validate-form", @autocomplete = "off" }))
 {
     @Html.AntiForgeryToken()
 
@@ -14,61 +14,61 @@
             Olá!
         </span>
 
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.ValidationSummary(true, "", new { @class = "text-danger pl-5" })
 
         <div class="wrap-input100 validate-input" data-validate="Nome do Pai é obrigatório">
             <span class="label-input100">Nome Do Pai</span>
             <br />
-            @Html.ValidationMessageFor(model => model.NomePai, "", new { @class = "text-danger", required = "required" })
-            <input class="input100" type="text" name="NomePai" placeholder="Informe o nome do Pai">
+            @Html.ValidationMessageFor(model => model.NomePai, "", new { @class = "text-danger pl-5", required = "required" })
+            @Html.TextBoxFor(model => model.NomePai, new { @class = "input100", @placeholder = "Informe o nome do Pai" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="CPF é obrigatório">
             <span class="label-input100">CPF</span>
             <br />
-            @Html.ValidationMessageFor(model => model.CPF, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="CPF" placeholder="Informe o CPF">
+            @Html.ValidationMessageFor(model => model.CPF, "", new { @class = "text-danger pl-5" })            
+            @Html.TextBoxFor(model => model.CPF, new { @class = "input100", @placeholder = "Informe o CPF" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="Evento é obrigatório">
             <span class="label-input100">Evento</span>
             <br />
-            @Html.ValidationMessageFor(model => model.Evento, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="Evento" placeholder="Informe o evento">
+            @Html.ValidationMessageFor(model => model.Evento, "", new { @class = "text-danger pl-5" })
+            @Html.TextBoxFor(model => model.Evento, new { @class = "input100", @placeholder = "Informe o Evento" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="Matricula é obrigatório">
             <span class="label-input100">Matricula</span>
             <br />
-            @Html.ValidationMessageFor(model => model.Matricula, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="Matricula" placeholder="Informe a Matricula">
+            @Html.ValidationMessageFor(model => model.Matricula, "", new { @class = "text-danger pl-5" })
+            @Html.TextBoxFor(model => model.Matricula, new { @class = "input100", @placeholder = "Informe a Matricula" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="E-mail é obrigatório">
             <span class="label-input100">E-mail</span>
             <br />
-            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="Email" placeholder="Informe o E-mail">
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger pl-5" })
+            @Html.TextBoxFor(model => model.Email, new { @class = "input100", @placeholder = "Informe o E-mail" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="Telefone é obrigatório">
             <span class="label-input100">Telefone</span>
             <br />
-            @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="Telefone" placeholder="Informe o número de Telefone">
+            @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger pl-5" })
+            @Html.TextBoxFor(model => model.Telefone, new { @class = "input100", @placeholder = "Informe o número de Telefone" })
             <span class="focus-input100"></span>
         </div>
 
         <div class="wrap-input100 validate-input" data-validate="Celular é obrigatório">
             <span class="label-input100">Celular</span>
             <br />
-            @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger" })
-            <input class="input100" type="text" name="Celular" placeholder="Informe o número de Celular">
+            @Html.ValidationMessageFor(model => model.Celular, "", new { @class = "text-danger pl-5" })
+            @Html.TextBoxFor(model => model.Celular, new { @class = "input100", @placeholder = "Informe o número de Celular" })
             <span class="focus-input100"></span>
         </div>
 

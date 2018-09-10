@@ -3,3 +3,4 @@ C:\git\freelancers\DreamTeam.PresenteFuturo\Biblioteca\bin\Debug\Biblioteca.pdb
 C:\git\freelancers\DreamTeam.PresenteFuturo\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
 C:\git\freelancers\DreamTeam.PresenteFuturo\Biblioteca\obj\Debug\Biblioteca.dll
 C:\git\freelancers\DreamTeam.PresenteFuturo\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\git\freelancers\DreamTeam.PresenteFuturo\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache

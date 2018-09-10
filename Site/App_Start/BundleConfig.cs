@@ -47,7 +47,7 @@ namespace Site
                       "~/Content/bootstrap.min.css",
                       "~/Content/bootstrap-theme.css",
                       "~/Content/bootstrap-theme.min.css",
-                      "~/Content/site.css",
+                      //"~/Content/site.css",
                       "~/Content/main.css",
                       "~/Content/util.css"));
 
