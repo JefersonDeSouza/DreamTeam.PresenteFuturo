@@ -1,4 +1,5 @@
 ﻿using Dominio.Cliente;
+using Dominio.Results;
 
 namespace Negocio.Interface
 {
@@ -6,5 +7,6 @@ namespace Negocio.Interface
     {
         long Salvar(Cliente cliente);
         void Salvar(object v);
+        Step3Result Consultar(object v);
     }
 }

@@ -452,15 +452,21 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Step1Controller.cs" />
     <Compile Include="Controllers\Step2Controller.cs" />
+    <Compile Include="Controllers\Step3Controller.cs" />
     <Compile Include="Conversoes\ClienteSignatureConversor.cs" />
     <Compile Include="Conversoes\Step2SignatureConversor.cs" />
+    <Compile Include="Conversoes\Step3SignatureConversor.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signatures\ClienteSignature.cs" />
     <Compile Include="Signatures\Step2Signature.cs" />
+    <Compile Include="Signatures\Step3Signature.cs" />
+    <Compile Include="ViewsModels\ContribuicaoEventoVM.cs" />
     <Compile Include="ViewsModels\MensagemVM.cs" />
+    <Compile Include="ViewsModels\StatusContribuicaoVM.cs" />
+    <Compile Include="ViewsModels\Step3VM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -474,6 +480,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\Step2\Cadastrar.cshtml" />
+    <Content Include="Views\Step3\Consultar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

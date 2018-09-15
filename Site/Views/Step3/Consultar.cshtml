@@ -1,0 +1,59 @@
+﻿@model Site.ViewsModels.Step3VM
+
+@{
+    ViewBag.Title = "Consultar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    legend {
+        margin-bottom: 0px;
+    }
+
+    hr {
+        height: 6px;
+        background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+        border: 0;
+    }
+</style>
+
+<section class="col-md-12" role="list">
+    <article class="col">
+        <p style="text-align: center;">Data de emissão: @Model.DataEmissao.ToString("dd/MM/yyyy")</p>
+        <fieldset>
+            <legend>Contribuintes</legend>
+            @foreach (var item in Model.Contribuicoes)
+            {
+                <table class="table">
+                    <tr>
+                        <td>
+                            <p>Contribuinte: </p>@Html.DisplayFor(modelItem => item.Contribuinte)
+                        </td>
+                        <td>
+                            <p>Valor: </p>@Html.DisplayFor(modelItem => item.ValorContruibuido)
+                        </td>
+                    </tr>
+                </table>
+            }
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <legend>Mensagens Recebidas</legend>
+            @foreach (var item in Model.Status)
+            {
+                <table class="table">
+                    <tr>
+                        <td>
+                            <p>Mensagem: </p>@Html.DisplayFor(modelItem => item.Mensagem)
+                        </td>
+                        <td>
+                            <p>Status: </p>@Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                    </tr>
+                </table>
+            }
+        </fieldset>
+    </article>
+</section>

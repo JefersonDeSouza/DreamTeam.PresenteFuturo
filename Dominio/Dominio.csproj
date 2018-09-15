@@ -43,6 +43,9 @@
     <Compile Include="Cliente\Cliente.cs" />
     <Compile Include="Contratos\IClienteRep.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\ContribuicaoEventoResult.cs" />
+    <Compile Include="Results\StatusContribuicaoResult.cs" />
+    <Compile Include="Results\Step3Result.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
